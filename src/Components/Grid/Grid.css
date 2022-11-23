@@ -1,0 +1,155 @@
+.containergrid{
+    padding: 0 1.5rem;
+}
+
+.grid{
+    padding: 5rem 0;
+}
+
+.grid .categorygrid{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.grid .griditem{
+    display: flex;
+    align-items: center;
+}
+
+.grid .leftgrid img{
+    width: 83%;
+    height: 125px;
+    object-fit: cover;
+    transition: 0.9s;
+}
+
+.grid .leftgrid img:hover{
+    filter: grayscale(100%);
+}
+
+.grid .rightgrid a{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.grid .rightgrid a:hover{
+    color: #FF8635;
+}
+
+.grid .rightgrid .span{
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-top: 20px;
+}
+.grid .center{
+    text-align: center;
+}
+.grid .center .allcenter img{
+    width: 90%;
+    height: 80vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: .9s;
+}
+
+.grid .center .allcenter img:hover{
+    filter: grayscale(100%);
+}
+.grid .center .allcenter a{
+    text-decoration: none;
+    font-size: 32px;
+    color: #000;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.grid .center .allcenter a:hover{
+    color: #FF8635;
+}
+
+.grid .center .allcenter p{
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0;
+}
+
+.grid .center .allcenter span{
+    font-weight: 500;
+}
+
+.grid .center .allcenter .orangetext{
+    color: #FF8635;
+    font-weight: 500;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.grid .center .allcenter .orangetext:hover{
+    color: #000;
+}
+
+.grid .right .texthead{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.grid .right .texthead:hover{
+    color: #FF8635;
+}
+
+.grid .right .textbot{
+    color: #7a7a7a;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.grid .right .textbot:hover{
+    color: #000;
+}
+
+.grid .right .top img{
+    width: 100%;
+    height: 235px;
+    object-fit: cover;
+    transition: .9s;
+}
+
+.grid .right .top img:hover{
+    filter: grayscale(100%);
+}
+
+.grid .right .top .texthd{
+    margin: 15px 0;
+}
+
+.grid .right .bottom .btmtextleft a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    transition: .5s;
+}
+
+.grid .right .bottom .btmtextleft{
+    margin: 10px 0;
+}
+
+.grid .right .bottom .btmtextleft a:hover{
+    color: #FF8635;
+}
+
+.grid .right .bottom img{
+    transition: .9s;
+}
+
+.grid .right .bottom img:hover{
+    filter: grayscale(100%);
+}

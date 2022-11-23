@@ -1,0 +1,23 @@
+.containerspotlight{
+    padding: 0 2.5rem;
+}
+
+.spotlight .all{
+    background-color: #f7f7f7;
+    padding: 5rem 1rem;
+}
+
+.spotlight .all .toptext{
+    font-size: 60px;
+}
+
+.spotlight .all .categorytop{
+    font-size: 14px;
+    font-weight: 600;
+}
+.spotlight .all .boxes .box a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}

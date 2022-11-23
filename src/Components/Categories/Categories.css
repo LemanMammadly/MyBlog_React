@@ -1,0 +1,43 @@
+.containercat{
+    padding: 0 1.5rem;
+}
+
+.category .categorytext{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.category img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.category .boxcat .topcattext{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.category .circle{
+    width: 4px;
+    height: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #7a7a7a;
+}
+
+.category .cattext{
+    display: flex;
+    align-items:center ;
+}
+
+.category .bottomcattext , .datecat{
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 14px;
+}

@@ -1,0 +1,48 @@
+.footer{
+    background-color: #000;
+    padding: 4rem 0;
+}
+
+.footer .containerfooter{
+    padding: 0 2rem;
+}
+
+.footer .bottom a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+.footer .left img{
+    margin-bottom: 20px;
+}
+
+.footer .footicons a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+.footer .footicons img{
+    width: 23px;
+}
+
+
+.footer .footcenttext{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.footer .copyright{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer .golden{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
