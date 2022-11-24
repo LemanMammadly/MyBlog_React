@@ -1,0 +1,45 @@
+.aboutsub{
+    padding: 5rem 0;
+}
+
+.allaboutsub{
+    padding: 2rem 0rem;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allaboutsub .left h3{
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.allaboutsub .center .line{
+    width: 1px;
+    height: 200px;
+    background-color: rgba(7, 7, 7, 0.433);
+}
+
+.allaboutsub .right h5{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.allaboutsub form{
+    display: flex;
+    align-items: center;
+}
+
+.allaboutsub form input{
+    padding: 8px 24px;
+    background-color: #cfcfcf;
+    border: none;
+}
+.allaboutsub form .btn{
+    margin-left: 10px;
+    background-color: #ff7d27;
+    font-size: 16px;
+    font-weight: bold;
+}

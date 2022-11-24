@@ -1,0 +1,60 @@
+.opinion .containeropinion{
+    padding: 4rem 2.5rem;
+}
+.opinion .categoryop{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.opinion img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    transition: .9s;
+    cursor: pointer;
+}
+
+.opinion img:hover{
+    filter: grayscale(100%);
+}
+
+.opinion .boxop .topbxtext{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.opinion .boxop .topbxtext:hover{
+    color: #ff7d27;
+}
+
+
+.opinion .circle{
+    width: 4px;
+    height: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #7a7a7a;
+}
+
+.opinion .bxtext{
+    display: flex;
+    align-items:center ;
+}
+
+.opinion .bottombxtext , .datebx{
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.opinion .bottomtrtext:hover{
+    color: #000;
+}

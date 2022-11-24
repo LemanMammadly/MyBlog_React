@@ -1,0 +1,60 @@
+.food .containerfood{
+    padding: 4rem 2.5rem;
+}
+.food .categoryfood{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.food img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    transition: .9s;
+    cursor: pointer;
+}
+
+.food img:hover{
+    filter: grayscale(100%);
+}
+
+.food .boxfd .topfdtext{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.food .boxfd .topfdtext:hover{
+    color:  #ff7d27;
+}
+
+
+.food .circle{
+    width: 4px;
+    height: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #7a7a7a;
+}
+
+.food .fdtext{
+    display: flex;
+    align-items:center ;
+}
+
+.food .bottomfdtext , .datefd{
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.food .bottomfdtext:hover{
+    color: #000;
+}

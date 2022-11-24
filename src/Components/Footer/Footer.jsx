@@ -10,10 +10,10 @@ const Footer = () => {
            <div className="left col-lg-4">
             <Link  to="/"><img className='w-75 img' src="https://assets.website-files.com/62961e0b9edf3034fa4a43b2/630f376f43db29ae1240bdc3_white-The-daily-work-logo.svg" alt="" /></Link>
             <div className="bottom">
-                <Link>Home</Link>
-                <Link>About</Link>
-                <Link>Contact</Link>
-                <Link>Image Licensing</Link>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/">Image Licensing</Link>
             </div>
            </div>
             <div className="center col-lg-4 text-center">

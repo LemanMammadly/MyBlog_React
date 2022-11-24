@@ -1,0 +1,30 @@
+.writers{
+    padding: 5rem 0rem;
+    text-align: center;
+}
+.allwr{
+    background-color: #f7f7f7;
+    padding: 2rem 1rem;
+}
+
+.writers .allwr h2{
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.writers .boxeswrt .boxwrt img{
+    width: 85%;
+    height: 300px;
+    object-fit: cover;
+}
+.writers .boxeswrt .boxwrt  .author{
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.writers .boxeswrt .boxwrt  .authorname{
+    font-size: 16px;
+    color: #ff7d27;
+}
